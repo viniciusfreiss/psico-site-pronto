@@ -40,10 +40,10 @@ export default function Contact() {
       <div className="max-w-3xl mx-auto text-center mb-12 relative">
         <div className="absolute bottom-0 left-1/2 w-24 h-1 bg-primary transform -translate-x-1/2"></div>
         <h2 className="relative inline-block text-3xl md:text-4xl font-bold text-secondary pb-1">
-          Vamos <span className="text-primary">Conversar?</span>
+          Vamos dar o primeiro passo? 
         </h2>
         <p className="text-base text-support mt-4">
-          Escolha o canal que preferir e dê o primeiro passo para sua transformação.
+          Estou pronta para acolher sua história. Conte comigo para abrir espaço ao seu bem-estar.
         </p>
       </div>
 
@@ -75,7 +75,7 @@ export default function Contact() {
       {/* CTA principal */}
       <div className="text-center mt-16">
         <a
-          href="https://wa.me/5511970758548"
+          href="https://wa.me/5511970758548?text=Ol%C3%A1%20Dayane%21%20Meu%20nome%20%C3%A9%20%5BSeu%20Nome%5D%2C%20encontrei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20online.%20Poderia%20me%20informar%20disponibilidade%20e%20valores%3F%20Obrigado%2Fa%21"
           target="_blank"
           rel="noopener noreferrer"
           className="
@@ -85,7 +85,7 @@ export default function Contact() {
           "
         >
           <FaWhatsapp className="w-5 h-5 mr-2 animate-pulse-fast" />
-          Iniciar pelo WhatsApp
+          Quero dar o primeiro passo
         </a>
       </div>
     </section>

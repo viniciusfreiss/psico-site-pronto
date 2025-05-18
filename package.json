@@ -2,22 +2,23 @@
   "name": "psicodayane",
   "version": "1.0.0",
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "preview": "next start",
-  "lint": "next lint"
-}
-,
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "preview": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "framer-motion": "^12.11.0",
     "git": "^0.1.5",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-icons": "^5.5.0",
     "react-simple-typewriter": "^5.0.1",
-    "react-tsparticles": "^2.12.2"
+    "react-tsparticles": "^2.12.2",
+    "swiper": "^11.2.6"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",

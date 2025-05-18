@@ -10,3 +10,40 @@ html {
   
 }
 
+@keyframes gradientText {
+  0%,100% { background-position: 0% 50%; }
+  50%     { background-position: 100% 50%; }
+}
+.text-gradient {
+  background: linear-gradient(90deg, #6CC3B0, #F2A65A, #6CC3B0);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientText 4s ease infinite;
+}
+
+@keyframes growUnderline {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+.underline-grow {
+  position: relative;
+}
+.underline-grow::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  height: 4px;
+  background: #F2A65A;
+  width: 0;
+  animation: growUnderline 0.6s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}

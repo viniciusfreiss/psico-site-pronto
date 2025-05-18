@@ -32,8 +32,8 @@ export default function Services() {
               <h3 className="text-2xl font-semibold mb-2">{s.title}</h3>
               <p className="text-support mb-4">{s.description}</p>
               <a
-                href="https://wa.me/5511970758548"
-                target="_blank"
+               href="https://wa.me/5511970758548?text=Ol%C3%A1%20Dayane%21%20Meu%20nome%20%C3%A9%20%5BSeu%20Nome%5D%2C%20encontrei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20online.%20Poderia%20me%20informar%20disponibilidade%20e%20valores%3F%20Obrigado%2Fa%21"
+              target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-primary hover:bg-accent text-white py-2 px-4 rounded-lg transition"
               >

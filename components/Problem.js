@@ -19,14 +19,14 @@ const issues = [
 
 export default function Problem() {
   return (
-    <section id="problem" className="relative py-20 px-6 bg-white">
-      {/* Cabeçalho com destaques */}
+    <section id="problem" className="relative py-10 px-6 bg-white">
+      {/* Cabeçalho com gradiente e sublinhado */}
       <div className="max-w-3xl mx-auto text-center mb-12">
-        <h2 className="text-4xl font-bold text-secondary">
-          Está enfrentando <span className="text-primary">esses desafios</span> que te <span className="text-accent">impêdem de avançar</span>?
+        <h2 className="text-4xl font-bold text-gradient inline-block underline-grow">
+          O que tem travado seu caminho?
         </h2>
-        <p className="text-lg text-support mt-4">
-          Reconhecer o que te incomoda é o primeiro passo para a transformação.
+        <p className="text-lg text-support mt-4 animate-fade-in">
+          Identificar suas dores é o primeiro passo para retomar o controle da sua vida.
         </p>
       </div>
 
@@ -53,14 +53,8 @@ export default function Problem() {
         ))}
       </div>
 
-      {/* Conector visual para Solution */}
-      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-[-20px]">
-        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#F2A65A" strokeWidth="2">
-          <path d="M12 5v14m0 0l-6-6m6 6l6-6" />
-        </svg>
-      </div>
 
-      {/* Base degradê de transição */}
+      {/* Transição */}
       <div className="mt-16 h-12 bg-gradient-to-b from-white to-neutral pointer-events-none"></div>
     </section>
   )

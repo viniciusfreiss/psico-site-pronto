@@ -41,7 +41,8 @@ export default function Header() {
             </Link>
           ))}
           <Link
-            href="https://wa.me/5511970758548"
+            href="https://wa.me/5511970758548?text=Ol%C3%A1%20Dayane%21%20Meu%20nome%20%C3%A9%20%5BSeu%20Nome%5D%2C%20encontrei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20online.%20Poderia%20me%20informar%20disponibilidade%20e%20valores%3F%20Obrigado%2Fa%21"
+              target="_blank"
             className="flex items-center bg-primary hover:bg-accent text-white font-semibold py-2.5 px-6 rounded-full transition"
           >
             <FaWhatsapp className="w-5 h-5 mr-2" />
