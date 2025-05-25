@@ -9,10 +9,10 @@ import {
 } from '@heroicons/react/24/outline'
 
 const features = [
-  { Icon: UserGroupIcon, title: 'Atendimento Único' },
-  { Icon: AcademicCapIcon, title: 'Psicanalista Experiente' },
-  { Icon: ClockIcon, title: 'Horários Flexíveis' },
-  { Icon: PuzzlePieceIcon, title: 'Abordagem Integrada' }
+  { title: 'Atendimento individual e em casal', Icon: UserGroupIcon },
+  { title: 'Horários Flexíveis', Icon: ClockIcon },
+  { title: 'Pós-graduanda em Psicanálise e Psicologia de Grupos', Icon: AcademicCapIcon },
+  { title: 'Palestrante em Saúde Mental', Icon: PuzzlePieceIcon }
 ]
 
 export default function About() {
@@ -34,9 +34,9 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-       <div className="relative w-64 h-64 rounded-full overflow-hidden shadow-xl">
+          <div className="relative w-64 h-64 rounded-full overflow-hidden shadow-xl">
             <Image
-              src="/images/about.jpg"
+              src="/images/foto-dayane.jpg"
               alt="Dayane de Souza Andrade"
               fill
               className="object-cover"
@@ -54,16 +54,25 @@ export default function About() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <h2 className="text-4xl md:text-4xl font-extrabold text-secondary leading-tight">
-            Prazer, sua futura<br />
+            Prazer, sua <br />
             <span className="text-primary">Psicóloga</span>
           </h2>
 
-          <p className="text-base text-secondary leading-relaxed text-justify">
-            Oi, eu sou a Dayane! Estou aqui para te oferecer um espaço acolhedor, seguro e livre de julgamentos. Meu objetivo é te ajudar a entender melhor suas emoções, fortalecer sua autoestima e viver com mais leveza.
-          </p>
-          <p className="text-base text-secondary leading-relaxed text-justify">
-            Acredito muito que cuidar da gente é essencial pra uma vida feliz e saudável. Seja você adolescente, adulto ou cuidador de alguém com deficiência, pode contar comigo nessa jornada de autoconhecimento e bem-estar!
-          </p>
+          <div className="space-y-4 text-base text-secondary leading-relaxed text-justify">
+            <p>Olá, me chamo Dayane e estou aqui para te oferecer um espaço acolhedor, seguro e livre de julgamentos.</p>
+            <p>
+              Acredito que não existe uma abordagem única que funcione para todas as pessoas. Por isso, adequo o processo terapêutico às necessidades e objetivos de cada indivíduo,
+              caminhando juntos na revisão da sua história e das suas experiências.
+            </p>
+            <p>
+              Tenho uma escuta genuína voltada às dores e desafios que muitas vezes têm origem em rupturas de apego ou traumas não resolvidos — fatores que podem desregular o sistema nervoso
+              e impactar diretamente a vida cotidiana. Atendo pessoas com diferentes demandas, como traumas, transtornos de ansiedade, depressão, fobias, dependência emocional,
+              conflitos familiares e relacionamentos, entre outras questões.
+            </p>
+            <p>
+              Se você sente que é hora de cuidar de si, entre em contato. Vamos juntos iniciar seu processo terapêutico.
+            </p>
+          </div>
 
           {/* Features */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">

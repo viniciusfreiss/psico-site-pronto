@@ -47,7 +47,7 @@ export default function Footer() {
             />
           </div>
           <p className="text-center text-sm text-support max-w-xs">
-            Psicanálise online para fortalecer sua saúde emocional e descobrir leveza no dia a dia.
+            Terapia online é para quem quer fortalecer sua saúde emocional, se entender melhor, vencer limitações e crescer com mais equilíbrio.
           </p>
         </div>
 

@@ -10,19 +10,15 @@ export default function FAQ() {
     },
     {
       q: 'Atendimento por plano de saúde?',
-      a: 'Ainda não trabalho com convênios — as sessões são no formato particular, garantindo total foco e personalização.'
+      a: 'Não trabalho com convênio diretamente, porém posso emitir nota fiscal para que avalie a possibilidade de reembolso.'
     },
     {
       q: 'Qual o valor das sessões e formas de pagamento?',
-      a: 'Valores individuais; entre em contato para investir em você. Pagamento via PIX, transferência ou dinheiro antes da sessão.'
-    },
-    {
-      q: 'Qual a duração de cada sessão?',
-      a: 'Em média, as sessões duram 60 minutos, tempo ideal para acolhimento e avanço real nas suas demandas.'
+      a: 'Valores individuais ou em pacotes, entre em contato para investir em você. Pagamento via pix ou transferência antes da sessão.'
     },
     {
       q: 'Para quem é recomendado?',
-      a: 'Para quem busca autoconhecimento, superação de desafios emocionais, fortalecimento da autoestima e desenvolvimento pessoal contínuo.'
+      a: 'Para quem busca entender melhor a si mesma (autoconhecimento), lidar com as emoções, superar dificuldades e desenvolver saúde mental e emocional. A terapia não é apenas para quem está em sofrimento.'
     }
   ]
 

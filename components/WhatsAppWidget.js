@@ -72,10 +72,10 @@ export default function WhatsAppWidget() {
                 Espere! Antes de ir embora…
               </h3>
               <p className="text-support">
-                Que tal agendar agora mesmo sua primeira sessão online com a Dayane e já começar a transformar sua vida?
+                Que tal agendar agora mesmo sua primeira sessão online comigo e começar o seu processo terapêutico?
               </p>
               <a
-                href="https://wa.me/5511970758548?text=Ol%C3%A1%20Dayane%21%20Meu%20nome%20%C3%A9%20%5BSeu%20Nome%5D%2C%20encontrei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20online.%20Poderia%20me%20informar%20disponibilidade%20e%20valores%3F%20Obrigado%2Fa%21"
+                href="https://wa.me/5511970758548?text=Ol%C3%A1%20Dayane%21%20Encontrei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20online.%20Poderia%20me%20dar%20mais%20informa%C3%A7%C3%B5es%3F%20Obrigado%2Fa%21"
               target="_blank"
                 className="
                   inline-flex items-center justify-center bg-primary hover:bg-accent 

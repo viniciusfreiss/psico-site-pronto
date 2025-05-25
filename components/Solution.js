@@ -5,26 +5,44 @@ import { motion } from 'framer-motion'
 
 export default function Solution() {
   const steps = [
-    { title: 'Desembaraçar a Mente',  desc: 'Liberte-se dos pensamentos que te prendem e ganhe clareza.' },
-    { title: 'Reerguer a Confiança',  desc: 'Redescubra seu valor e fortaleça sua autoestima.' },
-    { title: 'Dar Voz às Emoções',    desc: 'Aprenda a nomear e expressar o que sente sem receios.' },
-    { title: 'Dominar o Tempo',       desc: 'Priorize demandas sem sacrificar seu bem-estar.' },
-    { title: 'Fortalecer Conexões',   desc: 'Crie vínculos genuínos com empatia e limites claros.' },
-    { title: 'Redescobrir Propósito', desc: 'Encontre motivação e sentido em cada dia.' }
-  ]
+    {
+      title: 'Escute os sinais do inconsciente',
+      desc: 'Atenção ao que você resiste e persiste.'
+    },
+    {
+      title: 'Reconheça a sombra',
+      desc: 'O que te incomoda em si e nos outros.'
+    },
+    {
+      title: 'Desenvolva o processo de Individuação',
+      desc: 'É a jornada do “ser inteiro” e autêntico e não “perfeito”.'
+    },
+    {
+      title: 'Trabalhe com símbolos e arquétipos',
+      desc: 'Dar forma ao que é invisível.'
+    },
+    {
+      title: 'Busque o Self, não o ego',
+      desc: 'O ego quer conforto; o Self quer crescimento.'
+    },
+    {
+      title: 'Aprofunde-se em terapia',
+      desc: 'Onde terá apoio e aprofundamento.'
+    }
+  ];
 
   return (
     <section id="solution" className="bg-white pt-12 pb-16 px-6">
       {/* Cabeçalho com destaque estratégico */}
       <div className="max-w-3xl mx-auto text-center mb-10">
         <h2 className="text-4xl md:text-5xl font-extrabold text-secondary mb-4 leading-tight">
-          Você está a um passo de{' '}
+          Você deu o primeiro passo,{' '}
           <span className="text-primary font-extrabold bg-primary/10 px-2 py-1 rounded-lg underline decoration-primary decoration-2 underline-offset-4">
-            transformar sua vida
+            deixa eu te ajudar nos próximos
           </span>
         </h2>
         <p className="text-support text-lg mt-3">
-          A cada sessão, você percorre etapas claras rumo ao equilíbrio e à vida com propósito.
+          Ter domínio de si é a principal ferramenta para a sua saúde mental
         </p>
       </div>
 
@@ -70,12 +88,12 @@ export default function Solution() {
       {/* CTA final */}
       <div className="text-center mt-12">
         <a
-          href="https://wa.me/5511970758548?text=Ol%C3%A1%20Dayane%21%20Meu%20nome%20%C3%A9%20%5BSeu%20Nome%5D%2C%20encontrei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20online.%20Poderia%20me%20informar%20disponibilidade%20e%20valores%3F%20Obrigado%2Fa%21"
+          href="https://wa.me/5511970758548?text=Ol%C3%A1%20Dayane%21%20Encontrei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20online.%20Poderia%20me%20dar%20mais%20informa%C3%A7%C3%B5es%3F%20Obrigado%2Fa%21"
           target="_blank"
           className="inline-flex items-center bg-primary hover:bg-accent/90 text-white font-semibold py-3 px-10 rounded-full text-lg transition-shadow shadow-md hover:shadow-lg"
         >
           <FaWhatsapp className="w-5 h-5 mr-2" />
-          Quero Começar Minha Transformação
+          Quero começar o meu processo
         </a>
       </div>
 

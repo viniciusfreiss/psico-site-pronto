@@ -30,7 +30,7 @@ export default function Contact() {
     {
       Icon: CalendarDaysIcon,
       title: 'Agendamento',
-      desc: 'Sessões semanais de 60 minutos'
+      desc: 'Sessões semanais de 50 minutos'
     }
   ]
 
@@ -40,7 +40,7 @@ export default function Contact() {
       <div className="max-w-3xl mx-auto text-center mb-12 relative">
         <div className="absolute bottom-0 left-1/2 w-24 h-1 bg-primary transform -translate-x-1/2"></div>
         <h2 className="relative inline-block text-3xl md:text-4xl font-bold text-secondary pb-1">
-          Vamos dar o primeiro passo? 
+          Vamos dar o próximo passo?
         </h2>
         <p className="text-base text-support mt-4">
           Estou pronta para acolher sua história. Conte comigo para abrir espaço ao seu bem-estar.
@@ -75,7 +75,7 @@ export default function Contact() {
       {/* CTA principal */}
       <div className="text-center mt-16">
         <a
-          href="https://wa.me/5511970758548?text=Ol%C3%A1%20Dayane%21%20Meu%20nome%20%C3%A9%20%5BSeu%20Nome%5D%2C%20encontrei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20online.%20Poderia%20me%20informar%20disponibilidade%20e%20valores%3F%20Obrigado%2Fa%21"
+          href="https://wa.me/5511970758548?text=Ol%C3%A1%20Dayane%21%20Encontrei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20online.%20Poderia%20me%20dar%20mais%20informa%C3%A7%C3%B5es%3F%20Obrigado%2Fa%21"
           target="_blank"
           rel="noopener noreferrer"
           className="
@@ -85,7 +85,7 @@ export default function Contact() {
           "
         >
           <FaWhatsapp className="w-5 h-5 mr-2 animate-pulse-fast" />
-          Quero dar o primeiro passo
+          Quero dar o próximo passo
         </a>
       </div>
     </section>
