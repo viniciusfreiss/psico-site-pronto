@@ -33,7 +33,7 @@ export default function WhatsAppWidget() {
     <>
       {/* Botão flutuante com ícone maior */}
       <a
-        href="https://wa.me/5511970758548"
+        href="https://wa.me/5511970758548?text=Ol%C3%A1%20Dayane%21%20Encontrei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20online.%20Poderia%20me%20dar%20mais%20informa%C3%A7%C3%B5es%3F%20Obrigado%2Fa%21"
         target="_blank"
         className="
           fixed bottom-6 right-6 z-50 bg-primary hover:bg-accent 
@@ -60,7 +60,7 @@ export default function WhatsAppWidget() {
             {/* Imagem à esquerda */}
             <div className="hidden md:block">
               <img
-                src="/images/about.jpg"
+                src="/images/foto-semcadeira.jpg"
                 alt="Dayane sorrindo"
                 className="w-full h-full object-cover rounded-lg"
               />

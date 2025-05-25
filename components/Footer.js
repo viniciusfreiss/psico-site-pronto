@@ -16,13 +16,13 @@ export default function Footer() {
   const contactItems = [
     { label: 'Telefone', href: 'tel:+5511970758548', icon: '📞' },
     { label: 'E-mail', href: 'mailto:psicodayaneandrade@gmail.com', icon: '✉️' },
-    { label: 'WhatsApp', href: 'https://wa.me/5511970758548', icon: '💬' },
+    { label: 'WhatsApp', href: 'https://wa.me/5511970758548?text=Ol%C3%A1%20Dayane%21%20Encontrei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20online.%20Poderia%20me%20dar%20mais%20informa%C3%A7%C3%B5es%3F%20Obrigado%2Fa%21', icon: '💬' },
   ]
 
   const socialItems = [
-    { icon: <FaInstagram />, url: 'https://instagram.com' },
-    { icon: <FaFacebookF />, url: 'https://facebook.com' },
-    { icon: <FaLinkedinIn />, url: 'https://linkedin.com' },
+    { icon: <FaInstagram />, url: 'https://www.instagram.com/dayaneandradepsico/' },
+    { icon: <FaFacebookF />, url: 'https://www.facebook.com/profile.php?id=61576944890618' },
+    { icon: <FaLinkedinIn />, url: 'http://www.linkedin.com/in/dayaneandradepsico' },
   ]
 
   return (

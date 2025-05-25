@@ -6,27 +6,27 @@ import { motion } from 'framer-motion'
 export default function Solution() {
   const steps = [
     {
-      title: 'Escute os sinais do inconsciente',
+      title: 'Escute os Sinais do Inconsciente',
       desc: 'Atenção ao que você resiste e persiste.'
     },
     {
-      title: 'Reconheça a sombra',
+      title: 'Reconheça a Sombra',
       desc: 'O que te incomoda em si e nos outros.'
     },
     {
-      title: 'Desenvolva o processo de Individuação',
+      title: 'Desenvolva o Processo de Individuação',
       desc: 'É a jornada do “ser inteiro” e autêntico e não “perfeito”.'
     },
     {
-      title: 'Trabalhe com símbolos e arquétipos',
+      title: 'Trabalhe com Símbolos e Arquétipos',
       desc: 'Dar forma ao que é invisível.'
     },
     {
-      title: 'Busque o Self, não o ego',
+      title: 'Busque o Self, não o Ego',
       desc: 'O ego quer conforto; o Self quer crescimento.'
     },
     {
-      title: 'Aprofunde-se em terapia',
+      title: 'Aprofunde-se em Terapia',
       desc: 'Onde terá apoio e aprofundamento.'
     }
   ];

@@ -48,11 +48,7 @@ export default function Problem() {
       </div>
 
       {/* Estatística */}
-      <div className="max-w-6xl mx-auto mt-6 text-center">
-        <p className="text-lg font-medium text-primary">
-          * 1 em cada 4 pessoas no mundo sofre de algum transtorno mental a cada ano.
-        </p>
-      </div>
+
 
       {/* Fonte */}
       <div className="max-w-6xl mx-auto mt-4 text-center">

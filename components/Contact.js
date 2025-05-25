@@ -25,7 +25,7 @@ export default function Contact() {
       Icon: ChatBubbleLeftIcon,
       title: 'WhatsApp',
       desc: 'Clique para iniciar o chat',
-      href: 'https://wa.me/5511970758548'
+      href: 'https://wa.me/5511970758548?text=Ol%C3%A1%20Dayane%21%20Encontrei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20online.%20Poderia%20me%20dar%20mais%20informa%C3%A7%C3%B5es%3F%20Obrigado%2Fa%21'
     },
     {
       Icon: CalendarDaysIcon,

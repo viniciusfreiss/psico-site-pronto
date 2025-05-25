@@ -77,7 +77,7 @@ export default function Hero() {
         >
      <div className="relative w-full h-0 pb-[100%] rounded-full overflow-hidden ring-4 ring-primary/30 shadow-lg animate-float-slow">
     <Image
-      src="/images/hero-photo.jpg"
+      src="/images/foto-semcadeira.jpg"
       alt="Dayane sorrindo"
       fill
       className="object-cover object-center"

@@ -17,7 +17,10 @@ export default function FAQ() {
     },
     {
       q: 'Para quem é recomendado?',
-      a: 'Para quem busca entender melhor a si mesma (autoconhecimento), lidar com as emoções, superar dificuldades e desenvolver saúde mental e emocional. A terapia não é apenas para quem está em sofrimento.'
+      a:  <>
+          Para quem busca entender melhor a si mesmo (autoconhecimento), lidar com as emoções, superar dificuldades e desenvolver saúde mental e emocional.{' '}
+          <strong>A terapia não é apenas para quem está em sofrimento.</strong>
+        </>
     }
   ]
 

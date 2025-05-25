@@ -9,7 +9,7 @@ export default function Header() {
   const items = [
     ['Início', '#hero'],
     ['Desafios', '#problem'],
-    ['Soluções', '#solution'],
+    ['Caminho', '#solution'],
     ['Depoimentos', '#testimonials'],
     ['Sobre', '#about'],
     ['Contato', '#contact'],

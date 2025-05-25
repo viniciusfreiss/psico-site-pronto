@@ -6,7 +6,7 @@ import { StarIcon } from '@heroicons/react/24/solid'
 const reviews = [
   {
     name: 'Flavia O.',
-    quote: 'Olá Day! Fazer terapia com vc me fez melhorar minha autoestima, me cuidar melhor. Ter uma visão e foco nos meus objetivos facilita o dia e ter compreensão e principalmente ter prioridade comigo. A terapia é uma construção a cada sessão e eu me sentia aliviada em conseguir compreender e entender o que eu estava sentindo. Foi maravilhoso!',
+    quote: 'Olá Day! Fazer terapia com vc me fez melhorar minha autoestima, me cuidar melhor. Ter uma visão e foco nos meus objetivos facilita o dia a dia e ter compreensão e principalmente ter prioridade comigo. A terapia é uma construção a cada sessão e eu me sentia aliviada em conseguir compreender e entender o que eu estava sentindo. Foi maravilhoso!',
     img: '/images/flavia.jpeg',
     rating: 5
   },
@@ -18,7 +18,7 @@ const reviews = [
   },
   {
     name: 'Wesley V.',
-    quote: 'Fazer terapia foi um dos momentos mais importantes pra mim, (foi pois por alguns problemas financeiros fui obrigado a parar), mas assim que me restabelecer financeiramente volto a fazer com toda a certeza. Voltarei com a mesma profissional que me fez ver a vida de outra forma, que me fez ser melhor ao término de cada consulta, que me ajudou a tomar uma das decisões mais difíceis querer ser pai. Uma profissional que indico sempre pra todas as pessoas que por algum motivo está buscando ajuda. Tive a oportunidade me consultar, e com todo o carinho do mundo soube me ouvir entender e de uma maneira única me deixar à vontade para que as consultas fossem sempre mais produtivas. Só tenho a agradecer por ter cruzado com a Day em um momento conturbado da minha vida, pois foi ela que me acalentou e me fez descobrir coisas sobre mim que nem eu mesmo sabia. De uma coisa não tenho dúvidas, todos precisam de terapia mas somente os que têm sorte vão encontrar a Day.',
+    quote: 'Fazer terapia foi um dos momentos mais importantes pra mim, (foi pois por alguns problemas financeiros fui obrigado a parar), mas assim que me restabelecer financeiramente volto a fazer com toda a certeza. Voltarei com a mesma profissional que me fez ver a vida de outra forma, que me fez ser melhor ao término de cada consulta, que me ajudou a tomar uma das decisões mais difíceis querer ser pai. Uma profissional que indico sempre pra todas as pessoas que por algum motivo está buscando ajuda. Tive a oportunidade me consultar, e com todo o carinho do mundo soube me ouvir entender e de uma maneira única me deixar à vontade para que as consultas fossem sempre uma mais produtiva do que a outra. Só tenho a agradecer por ter cruzado com a Day em um momento conturbado da minha vida, pois foi ela que me acalentou e me fez descobrir coisas sobre mim que nem eu mesmo sabia. De uma coisa não tenho dúvidas, todos precisam de terapia mas somente os que têm sorte vão encontrar a Day.',
     img: '/images/wesley.jpeg',
     rating: 5
   },
@@ -71,7 +71,7 @@ export default function Testimonials() {
           <div className="w-2/3 h-12 bg-primary/20 transform rotate-1"></div>
         </div>
         <h2 className="relative inline-block text-3xl md:text-4xl font-extrabold text-secondary px-4">
-          O que dizem quem já viveu essa jornada
+          O que Dizem Quem já Viveu essa Jornada
         </h2>
         <p className="mt-4 text-base text-support max-w-lg mx-auto animate-fade-in">
           Veja como o processo terapêutico pode ter impactos profundos na sua vida.
