@@ -1,4 +1,3 @@
-// components/FAQ.js
 import { useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/24/outline'
 
@@ -38,9 +37,9 @@ export default function FAQ() {
               <div key={i} className="bg-white rounded-xl shadow-sm overflow-hidden">
                 <button
                   onClick={() => toggle(i)}
-                  className="w-full flex justify-between items-center px-6 py-4 focus:outline-none"
+                  className="w-full flex justify-between items-start px-6 py-4 focus:outline-none"
                 >
-                  <span className="font-semibold text-lg text-secondary">
+                  <span className="font-semibold text-lg text-secondary text-left w-full">
                     {f.q}
                   </span>
                   <ChevronDownIcon
