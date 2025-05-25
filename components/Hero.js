@@ -29,7 +29,7 @@ export default function Hero() {
         {/* Coluna de texto */}
         <div className="flex-1 space-y-4">
           <p className="text-sm uppercase text-support tracking-wider">
-            Psicóloga Dayane Andrade
+            Psicóloga Dayane de Souza Andrade
           </p>
 
           {/* Headline */}
